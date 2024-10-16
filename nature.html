@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>bird animation</title>
+</head>
+<body>
+	<div class="background">
+		<img src="https://github.com/Divine203/bird-animation/blob/main/nature_2.jpg?raw=true" width="100%" height="1000px" alt="nature">
+
+		<div class="bird1">
+			<div class="wing_bird1"></div>
+		</div>
+		<div class="bird2">
+			<div class="wing_bird2"></div>
+
+		</div>
+		<div class="bird3">
+			<div class="wing_bird3"></div>
+		</div>
+		<div class="bird4">
+			<div class="wing_bird4"></div>
+		</div>
+		<div class="bird5">
+			<div class="wing_bird5"></div>
+		</div>
+		<div class="bird6">
+			<div class="wing_bird6"></div>	
+		</div>
+	</div>
+</body>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		.background{
+			width: 100%;
+			height: 500px;
+			position: absolute;
+		}
+
+		.bird1{
+			width: 10px;
+			height: 2px;
+			background: black;
+			border-radius: 10px;
+			position: absolute;
+			top: 150px;
+			left: -50px;
+			animation: move 40s infinite 0s;
+
+		}
+		@keyframes move{
+			from{
+				left: 700px;
+				top: 150px;
+			}
+			to{
+				left: -50px;
+				top: 200px;
+			}
+		}
+	
+		.wing_bird1{
+			width: 5px;
+			height: 7px;
+			background: black;
+			border-bottom-left-radius: 2px;
+			border-bottom-right-radius: 2px;
+			position: absolute;
+			left: 2px;
+			animation: flap 1s infinite 0s;
+			transform-origin: top;
+
+		}
+		@keyframes flap{
+			0%{
+				transform: rotateX(0deg);
+			}
+			50%{
+				transform: rotateX(180deg);
+			}
+			100%{
+				transform: rotateX(0deg);
+			}
+		}
+
+
+		.bird2{
+			width: 10px;
+			height: 2px;
+			background: black;
+			border-radius: 10px;
+			position: absolute;
+			top: 110px;
+			left: -50px;
+			animation: move 40s infinite 5s;
+
+		}
+
+		@keyframes move{
+			from{
+				left: 700px;
+				top: 110px;
+			}
+			to{
+				left: -50px;
+				top: 170px;
+			}
+		}
+	
+	
+		.wing_bird2{
+			width: 5px;
+			height: 7px;
+			background: black;
+			border-bottom-left-radius: 2px;
+			border-bottom-right-radius: 2px;
+			position: absolute;
+			left: 2px;
+			animation: flap 1s infinite .3s;
+			transform-origin: top;
+
+		}
+		@keyframes flap{
+			0%{
+				transform: rotateX(0deg);
+			}
+			50%{
+				transform: rotateX(180deg);
+			}
+			100%{
+				transform: rotateX(0deg);
+			}
+		}
+
+
+		.bird3{
+			width: 10px;
+			height: 2px;
+			background: black;
+			border-radius: 10px;
+			position: absolute;
+			top: 170px;
+			left: -50px;
+			animation: move 40s infinite 9s;
+
+		}
+		@keyframes move{
+			from{
+				left: 700px;
+				top: 170px;
+			}
+			to{
+				left: -50px;
+				top: 230px;
+			}
+		}
+	
+		
+		.wing_bird3{
+			width: 5px;
+			height: 7px;
+			background: black;
+			border-bottom-left-radius: 2px;
+			border-bottom-right-radius: 2px;
+			position: absolute;
+			left: 2px;
+			animation: flap 1s infinite .6s;
+			transform-origin: top;
+
+		}
+		@keyframes flap{
+			0%{
+				transform: rotateX(0deg);
+			}
+			50%{
+				transform: rotateX(180deg);
+			}
+			100%{
+				transform: rotateX(0deg);
+			}
+		}
+
+		.bird4{
+			width: 10px;
+			height: 2px;
+			background: black;
+			border-radius: 10px;
+			position: absolute;
+			top: 190px;
+			left: -50px;
+			animation: move 40s infinite 49s;
+
+		}
+
+		@keyframes move{
+			from{
+				left: 700px;
+				top: 190px;
+			}
+			to{
+				left: -50px;
+				top: 230px;
+			}
+		}
+	
+		
+		.wing_bird4{
+			width: 5px;
+			height: 7px;
+			background: black;
+			border-bottom-left-radius: 2px;
+			border-bottom-right-radius: 2px;
+			position: absolute;
+			left: 2px;
+			animation: flap 1s infinite .5s;
+			transform-origin: top;
+
+		}
+		@keyframes flap{
+			0%{
+				transform: rotateX(0deg);
+			}
+			50%{
+				transform: rotateX(180deg);
+			}
+			100%{
+				transform: rotateX(0deg);
+			}
+		}
+
+		.bird5{
+			width: 10px;
+			height: 2px;
+			background: black;
+			border-radius: 10px;
+			position: absolute;
+			top: 190px;
+			left: -50px;
+			animation: move 40s infinite 52s;
+
+		}
+
+		@keyframes move{
+			from{
+				left: 700px;
+				top: 140px;
+			}
+			to{
+				left: -50px;
+				top: 200px;
+			}
+		}
+	
+		
+		.wing_bird5{
+			width: 5px;
+			height: 7px;
+			background: black;
+			border-bottom-left-radius: 2px;
+			border-bottom-right-radius: 2px;
+			position: absolute;
+			left: 2px;
+			animation: flap 1s infinite .5s;
+			transform-origin: top;
+
+		}
+		@keyframes flap{
+			0%{
+				transform: rotateX(0deg);
+			}
+			50%{
+				transform: rotateX(180deg);
+			}
+			100%{
+				transform: rotateX(0deg);
+			}
+		}
+
+		.bird6{
+			width: 10px;
+			height: 2px;
+			background: black;
+			border-radius: 10px;
+			position: absolute;
+			top: 190px;
+			left: -50px;
+			animation: move 40s infinite 56s;
+
+		}
+		@keyframes move{
+			from{
+				left: 700px;
+				top: 70px;
+			}
+			to{
+				left: -50px;
+				top: 200px;
+			}
+		}
+	
+		
+		.wing_bird6{
+			width: 5px;
+			height: 7px;
+			background: black;
+			border-bottom-left-radius: 2px;
+			border-bottom-right-radius: 2px;
+			position: absolute;
+			left: 2px;
+			animation: flap 1s infinite .5s;
+			transform-origin: top;
+
+		}
+		@keyframes flap{
+			0%{
+				transform: rotateX(0deg);
+			}
+			50%{
+				transform: rotateX(180deg);
+			}
+			100%{
+				transform: rotateX(0deg);
+			}
+		}
+
+		
+		
+	
+	</style>
+</html>
